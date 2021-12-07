@@ -1,3 +1,0 @@
-hello world 
-beijing welcome
-golang 哈哈哈
