@@ -1,0 +1,64 @@
+{
+  "id": "34f0bc50-f177-4718-9d9d-5cc7782877f8",
+  "brand": "Apple",
+  "name": "Macbook Pro",
+  "cpu": {
+    "brand": "AMD",
+    "name": "Ryzen 7 PRO 2700U",
+    "number_cores": 7,
+    "number_threads": 7,
+    "min_ghz": 3.2694417679305086,
+    "max_ghz": 4.09506210164037
+  },
+  "ram": {
+    "value": "23",
+    "unit": "GIGABYTE"
+  },
+  "gpus": [
+    {
+      "brand": "AMD",
+      "name": "RX 590",
+      "number_cores": 0,
+      "number_threads": 0,
+      "min_ghz": 1.0690359932123183,
+      "max_ghz": 1.1164465233263867,
+      "memory": {
+        "value": "5",
+        "unit": "GIGABYTE"
+      }
+    }
+  ],
+  "storages": [
+    {
+      "driver": "SSD",
+      "memory": {
+        "value": "391",
+        "unit": "GIGABYTE"
+      }
+    },
+    {
+      "driver": "HDD",
+      "memory": {
+        "value": "2",
+        "unit": "TERABYTE"
+      }
+    }
+  ],
+  "screen": {
+    "size_inch": 16.339735,
+    "resolution": {
+      "width": 2984,
+      "height": 1679
+    },
+    "panel": "IPS",
+    "multitouch": false
+  },
+  "keyboard": {
+    "layout": "AZERTY",
+    "backlit": false
+  },
+  "weight_kg": 2.755124798067293,
+  "price_usd": 1854.5184880578893,
+  "release_year": 2019,
+  "updated_at": "2022-01-13T18:29:24.005928Z"
+}

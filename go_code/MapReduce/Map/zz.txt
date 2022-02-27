@@ -1,0 +1,9 @@
+The master pings every worker periodically. If no response is received
+from a worker in a certain amount of time, the master marks the worker
+as failed. Any map tasks completed by the worker are reset back to their
+initial idle state and therefore become eligible for scheduling on other
+workers. Similarly, any map task or reduce task in progress on a failed
+worker is also reset to idle and becomes eligible for rescheduling.
+Completed map tasks are reexecuted on a failure because their output is stored on the local disk(s) of the failed machine and is therefore
+inaccessible. Completed reduce tasks do not need to be reexecuted
+since their output is stored in a global file system.
